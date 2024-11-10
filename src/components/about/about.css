@@ -1,0 +1,25 @@
+.about-section{
+    height: 100vh;
+}
+.about-items{
+    display: flex;
+}
+.info{
+    flex-basis: 50%;
+    height: 100vh;
+}
+.img-section{
+    flex-basis: 50%;
+    height: 100vh;
+}
+.info-items{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.about-heading{
+    margin-bottom: 30px;
+}
+.aboutImg{
+    height: 100%;
+}

@@ -1,0 +1,33 @@
+.practise-section{
+    height: 100vh;
+}
+.practise-items{
+    width: 96%;
+    margin-left: auto;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.practise-heading{
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.practise-boxes{
+    display: flex;
+}
+.practise-box{
+    padding: 30px;
+}
+.practise-box h3{
+    margin-bottom: 80px;
+}
+.box1{
+    background-color:#e8d1ae ;
+}
+.box2{
+    background-color:#dbbf94 ;
+}
+.box3{
+    background-color:#cdad7d ;
+}

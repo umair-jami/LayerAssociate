@@ -1,0 +1,30 @@
+.hero-section{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background:linear-gradient(rgba(1, 8, 27, 0.842),rgba(2, 5, 22, 0.801)), url(../../assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-heading{
+    width: 370px;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.hero-text{
+    width: 514px;
+    line-height: 30px;
+}
+.btn{
+    background-color: #cdad7d;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+}

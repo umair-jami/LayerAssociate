@@ -1,0 +1,32 @@
+.nav{
+    width: 80vw;
+    margin:auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 150px;
+    padding: 10px;
+}
+.nav-heading{
+    width: 200px;
+    display: flex;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.navitems{
+    display: flex;
+    gap: 15px;
+    margin-top: 9px;
+}
+.navitems .navitem{
+    color: white;
+}
+.navitems .navitem:hover{
+    color: yellow;
+    text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+.feedback-section{
+    height: 100vh;
+    background:linear-gradient(rgba(1, 8, 27, 0.842),rgba(2, 5, 22, 0.801)), url(../../assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.feedback-text{
+    width: 100%;
+    text-align: center;
+}
+.feed-heading{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #cdad7d;
+}
