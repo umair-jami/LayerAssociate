@@ -19,18 +19,15 @@ export default function Service() {
                     <p className={Sstyle.servicestext}>Share your services or specializations here, then list them down as bullet points for mobile-friendly easy reading. </p>
                     <div className={Sstyle.servicebuilets}>
                         <Image src={serviceIcon} alt='serviceIcon' className={Sstyle.serviceIcon}/>
-                        <p className={Sstyle.iconText}>Add as many bullets
-                        as you need</p>
+                        <p className={Sstyle.iconText}>Corporate Legal Advisory</p>
                     </div>
                     <div className={Sstyle.servicebuilets}>
                         <Image src={serviceIcon} alt='serviceIcon' className={Sstyle.serviceIcon}/>
-                        <p className={Sstyle.iconText}>Add as many bullets
-                        as you need</p>
+                        <p className={Sstyle.iconText}>Contract Drafting & Review</p>
                     </div>
                     <div className={Sstyle.servicebuilets}>
                         <Image src={serviceIcon} alt='serviceIcon' className={Sstyle.serviceIcon}/>
-                        <p className={Sstyle.iconText}>Add as many bullets
-                        as you need</p>
+                        <p className={Sstyle.iconText}>Mediation Services</p>
                     </div>
                 </div>
             </div>

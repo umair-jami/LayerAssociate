@@ -43,11 +43,24 @@
         display: block;
     }
 }
+@media screen and (max-width:376px){
+    .practisebox h3{
+        margin-bottom: 15px;
+    }
+    .practiseheading{
+        margin-bottom: 50px;
+    }
+}
 @media screen and (max-width:283px){
     .practisebox{
         padding: 4px;
     }
     .practisebox h3{
         margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:230px){
+    .text{
+        font-size: 14px;
     }
 }

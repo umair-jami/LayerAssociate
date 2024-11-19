@@ -100,6 +100,17 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width:376px){
+    .contactHeading{
+        padding-top: 20px;
+    }
+    .webLogo{
+        margin-top: 0px;
+    }
+    .socialText p{
+        font-size: 12px;
+    }
+}
 @media screen and (max-width:305px){
     .socialHeading h1{
         font-size: 30px;

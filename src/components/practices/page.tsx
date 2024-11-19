@@ -14,19 +14,19 @@ export default function Practices() {
             <div className={`${styles.practisebox} ${styles.box1}`}>
               <h3 className={styles.text}>General Counsel</h3>
               <p className={styles.text}>
-                What's special about your services or offerings? Give your audience a reason to choose you over your competition. Cite it above, then flesh it out here.
+              Providing expert legal guidance tailored to your business needs. Offering unparalleled dedication and strategic solutions.
               </p>
             </div>
             <div className={`${styles.practisebox} ${styles.box2}`}>
               <h3 className={styles.text}>Civil Litigation</h3>
               <p className={styles.text}>
-                What's special about your services or offerings? Give your audience a reason to choose you over your competition. Cite it above, then flesh it out here.
+              Representing you effectively in court with meticulous preparation. Fighting passionately to protect your interests every step.
               </p>
             </div>
             <div className={`${styles.practisebox} ${styles.box3}`}>
               <h3 className={styles.text}>Dispute Resolution</h3>
               <p className={styles.text}>
-                What's special about your services or offerings? Give your audience a reason to choose you over your competition. Cite it above, then flesh it out here.
+              Resolving conflicts efficiently while preserving relationships. Delivering practical, fair outcomes through expert negotiation.
               </p>
             </div>
           </div>
