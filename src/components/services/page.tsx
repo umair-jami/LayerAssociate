@@ -1,6 +1,6 @@
 import React from 'react'
 import './service.css'
-import serviceImg from "../../assets/services.jpg"
+import serviceImg from "../../assets/serviceIcon.jpg"
 import Image from 'next/image'
 import serviceIcon from "../../assets/servicesIcon.png"
 

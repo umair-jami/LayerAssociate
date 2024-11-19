@@ -22,3 +22,16 @@
     padding: 20px;
     border: 2px solid #cdad7d;
 }
+@media screen and (max-width:753px){
+    .box{
+        height: 350px;
+    }
+}
+@media screen and (max-width:637px){
+    .boxes{
+        display: block;
+    }
+    .box{
+        height: 200px;
+    }
+}

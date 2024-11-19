@@ -1,5 +1,5 @@
 .contactSection{
-    height: 100vh;
+    height: 110vh;
 }
 .contactHeading{
     padding-top: 100px;
@@ -38,4 +38,23 @@
 .socialText{
     display: flex;
     justify-content: space-between;
+}
+.webLogo{
+    display: flex;
+}
+.ContactIcon{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width:1000px) {
+    .contactSection{
+        padding: 50px;
+    }
+}
+@media screen and (max-width:786px) {
+    .webLogo{
+        margin-top: 50px;
+    }
 }

@@ -7,6 +7,7 @@ export default function About() {
   return (
     <div className="about-section bg-yellow" id="about">
       <div className="container about-items">
+        {/* Info Section */}
         <div className="info">
           <div className="info-items">
             <h1 className="about-heading text-blue ls-1">
@@ -22,9 +23,11 @@ export default function About() {
             <button className="btn text-blue">Get in Touch</button>
           </div>
         </div>
+
+        {/* Image Section */}
         <div className="img-section">
           <div className="info-items">
-            <Image src={aboutImg} alt="aboutImg" className="aboutImg" />
+            <Image src={aboutImg} alt="About Us" className="aboutImg" />
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import emailImage from "../../assets/email.png";
 import fbIcon from "../../assets/fb.png";
 import x from "../../assets/x.png";
 import insta from "../../assets/insta.png";
-import logo from '../../assets/logo.png'
+import logo from "../../assets/logo.png";
 
 export default function Contact() {
   return (
@@ -50,11 +50,14 @@ export default function Contact() {
           </div>
         </div>
         <div className={style.socialText}>
-            <p className="text-blue">This is an accessible workplace. Persons with <br /> disabilities are welcome to apply. </p>
-            <div className='nav-heading text-yellow ls-1 text-uppercase'>
-          <Image src={logo} alt="logo" className='logo'/>
+          <p className="text-blue">
+            This is an accessible workplace. Persons with <br /> disabilities
+            are welcome to apply.{" "}
+          </p>
+          <div className={`${style.webLogo} nav-heading text-yellow ls-1 text-uppercase`}>
+            <Image src={logo} alt="logo" className={style.ContactIcon} />
             <p className="text-blue">myron law associates</p>
-        </div>
+          </div>
         </div>
       </div>
     </div>

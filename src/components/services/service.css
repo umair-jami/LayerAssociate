@@ -5,6 +5,7 @@
     width: 90%;
     margin: auto;
     display: flex;
+    /* padding-top: 130px; */
 }
 .service-img-box{
     flex-basis: 40%;
@@ -40,4 +41,12 @@
 }
 .service-builets{
     display: flex;
+}
+@media screen and (max-width:620px) {
+    .services-items{
+        display: block;
+    }
+    .service-img-box{
+        display: none;
+    }
 }

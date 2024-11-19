@@ -8,10 +8,14 @@
     top: 0;
     left: 150px;
     padding: 10px;
+    background: transparent;
 }
 .nav-heading{
     width: 200px;
     display: flex;
+}
+.nav-heading p{
+    color: red;
 }
 .logo{
     width: 30px;
@@ -24,9 +28,47 @@
     margin-top: 9px;
 }
 .navitems .navitem{
-    color: white;
+    color: red;
 }
 .navitems .navitem:hover{
     color: yellow;
     text-decoration: underline;
+}
+.nav-container{
+    position: relative;
+}
+.Menunavitems{
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    visibility: hidden;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.Menunavitem{
+    color: red;
+}
+.Menunavitem:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+@media screen and (max-width:874px) {
+    .nav{
+        position: fixed;
+        left: 0px;
+        width: 100vw;
+        margin: 0;
+    }
+}
+@media screen and (max-width:691px){
+    .navitems{
+        display: none;
+    }
+    .menu{
+        visibility: visible;
+    }
 }
