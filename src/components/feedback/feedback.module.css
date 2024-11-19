@@ -47,3 +47,21 @@
         height: 200px;
     }
 }
+@media screen and (max-width:333px){
+    .box{
+        height: 200px;
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid #cdad7d;
+    }
+    .boxtext{
+        color: #eeead6;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:246px){
+    .boxtext{
+        color: #eeead6;
+        font-size: 13px;
+    }
+}

@@ -88,3 +88,9 @@
     padding: 40px 20px;
   }
 }
+@media screen and (max-width:336px) {
+  .heroheading{
+    width: 200px;
+    font-size: 20px;
+  }
+}

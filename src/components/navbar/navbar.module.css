@@ -3,6 +3,9 @@
   max-width: 900px;
   margin: auto;
 }
+.navcontainer{
+  width: 100vh;
+}
 .nav {
   /* width: 80vw; */
   margin: auto;
@@ -53,13 +56,14 @@
   flex-direction: column;
 }
 .menu {
-  margin-right: 30px;
+  width: 100%;
+  margin-right: -34px;
   visibility: hidden;
   position: fixed;
   top: 10px;
   right: 0px;
   height: 200px;
-  width: 150px;
+  max-width: 150px;
   background: transparent;
 }
 .Menunavitem {
@@ -71,6 +75,13 @@
 .Menunavitem:hover {
   color: yellow;
   text-decoration: underline;
+}
+@media screen and (max-width: 1080px){
+  .nav{
+    position: fixed;
+    left: 5px;
+    width: 100vw;
+  }
 }
 @media screen and (max-width: 874px) {
   .nav {
@@ -87,4 +98,7 @@
   .menu {
     visibility: visible;
   }
+}
+@media screen and(max-width:1500px) {
+  
 }

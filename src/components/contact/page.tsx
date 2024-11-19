@@ -33,11 +33,11 @@ export default function Contact() {
           </div>
         </div>
         <div className={style.officeInfo}>
-          <h2 className="text-blue">Office Hours</h2>
-          <p className="OfficeDays">Monday to Friday</p>
-          <p className="timing">9:00 am to 6:00 pm</p>
-          <p className="OfficeDays">Saturday</p>
-          <p className="timing">9:00 am to 12 noon</p>
+          <h2>Office Hours</h2>
+          <p className={style.officeDays}>Monday to Friday</p>
+          <p className={style.timing}>9:00 am to 6:00 pm</p>
+          <p className={style.officeDays}>Saturday</p>
+          <p className={style.timing}>9:00 am to 12 noon</p>
         </div>
         <div className={style.social}>
           <div className={style.socialHeading}>
