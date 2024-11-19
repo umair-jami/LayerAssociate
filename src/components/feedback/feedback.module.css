@@ -1,17 +1,29 @@
-.feedback-section{
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+  }
+.feedbacksection{
     height: 100vh;
     background:linear-gradient(rgba(1, 8, 27, 0.842),rgba(2, 5, 22, 0.801)), url(../../assets/hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #fff;
 }
-.feedback-text{
+.feedbacktext{
     width: 100%;
     text-align: center;
 }
-.feed-heading{
+.feedheading{
     padding-top: 100px;
     padding-bottom: 30px;
+}
+.boxtext{
+    color: #eeead6;
+}
+.NameText{
+    color: #cdad7d;
 }
 .boxes{
     display: flex;

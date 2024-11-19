@@ -1,0 +1,90 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+.nav {
+  /* width: 80vw; */
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 150px;
+  padding: 10px;
+  background-color: black;
+  /* background: transparent; */
+}
+.navheading {
+  width: 200px;
+  display: flex;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.navheading p {
+  color: white;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.navitems {
+  display: flex;
+  gap: 15px;
+  margin-top: 9px;
+}
+.navitems .navitem {
+  color: white;
+  letter-spacing: 1px;
+}
+.navitems .navitem:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+.navcontainer {
+  position: relative;
+}
+.Menunavitems {
+  width: 150px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  margin-right: 30px;
+  visibility: hidden;
+  position: fixed;
+  top: 10px;
+  right: 0px;
+  height: 200px;
+  width: 150px;
+  background: transparent;
+}
+.Menunavitem {
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+  padding: 5px;
+}
+.Menunavitem:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+@media screen and (max-width: 874px) {
+  .nav {
+    position: fixed;
+    left: 0px;
+    width: 100vw;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 691px) {
+  .navitems {
+    display: none;
+  }
+  .menu {
+    visibility: visible;
+  }
+}

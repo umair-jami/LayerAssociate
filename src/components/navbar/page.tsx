@@ -1,78 +1,78 @@
 "use client";
 import React, { useState } from "react";
-import "./navbar.css";
 import Link from "next/link";
 import logo from "../../assets/logo.png";
 import Image from "next/image";
 import menuImage from "../../assets/menu.png";
 import closeImage from "../../assets/close.png";
+import navStyle from './navbar.module.css'
 
 export default function Navbar() {
   let [menu, setMenu] = useState(false);
   return (
-    <div className="nav-container">
-      <nav className="container nav" id="navbar">
-        <div className="nav-heading ls-1 text-uppercase">
-          <Image src={logo} alt="logo" className="logo" />
+    <div className={navStyle.navcontainer}>
+      <nav className={`${navStyle.container} ${navStyle.nav}`} id="navbar">
+        <div className={navStyle.navheading}>
+          <Image src={logo} alt="logo" className={navStyle.logo} />
           <p>myron law associates</p>
         </div>
-        <div className="navitems">
-          <Link href="#hero" className="navitem ls-1">
+        <div className={navStyle.navitems}>
+          <Link href="#hero" className={navStyle.navitem}>
             Home
           </Link>
-          <Link href="#about" className="navitem ls-1">
+          <Link href="#about" className={navStyle.navitem}>
             About
           </Link>
-          <Link href="#practices" className="navitem ls-1">
+          <Link href="#practices" className={navStyle.navitem}>
             Practises
           </Link>
-          <Link href="#service" className="navitem ls-1">
+          <Link href="#service" className={navStyle.navitem}>
             Services
           </Link>
-          <Link href="#feedback" className="navitem ls-1">
+          <Link href="#feedback" className={navStyle.navitem}>
             Testimonials
           </Link>
-          <Link href="#contact" className="navitem ls-1">
+          <Link href="#contact" className={navStyle.navitem}>
             Contact
           </Link>
         </div>
       </nav>
-      <div className="menu">
-        <div className="nav-heading text-yellow ls-1 text-uppercase">
+      <div className={navStyle.menu}>
+        <div className={navStyle.navheading}>
           {menu ? (
             <Image
               src={closeImage}
               alt="closeImage"
-              className="logo"
+              className={navStyle.logo}
               onClick={() => setMenu(!menu)}
             />
           ) : (
             <Image
               src={menuImage}
               alt="logo"
-              className="logo"
+              className={navStyle.logo}
               onClick={() => setMenu(!menu)}
             />
           )}
         </div>
         {menu ? (
-          <div className="Menunavitems">
-            <Link href="#hero" className="Menunavitem ls-1">
+          <div className={navStyle.Menunavitems}>
+            <Link href="#hero" className={navStyle.Menunavitem}>
               Home
             </Link>
-            <Link href="#about" className="Menunavitem ls-1">
+            <Link href="#about" className={navStyle.Menunavitem}>
               About
             </Link>
-            <Link href="#practices" className="Menunavitem ls-1">
+            <Link href="#practices" className={navStyle.Menunavitem}>
               Practises
             </Link>
-            <Link href="#service" className="Menunavitem ls-1">
+            <Link href="#service" className={navStyle.Menunavitem}>
               Services
             </Link>
-            <Link href="#feedback" className="Menunavitem ls-1">
+            <Link href="#feedback" className={navStyle.Menunavitem}>
               Testimonials
             </Link>
-            <Link href="#contact" className="Menunavitem ls-1">
+            <Link href="#contact" className={navStyle.Menunavitem}>
               Contact
             </Link>
           </div>

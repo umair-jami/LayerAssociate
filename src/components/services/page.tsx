@@ -1,35 +1,35 @@
 import React from 'react'
-import './service.css'
+import Sstyle from './service.module.css'
 import serviceImg from "../../assets/serviceIcon.jpg"
 import Image from 'next/image'
 import serviceIcon from "../../assets/servicesIcon.png"
 
 export default function Service() {
   return (
-    <div className='service-section bg-yellow' id='service'>
-        <div className="container">
-            <div className="services-items">
-                <div className="service-img-box">
-                    <Image src={serviceImg} alt='service-img' className='service-img'/>
+    <div className={Sstyle.servicesection} id='service'>
+        <div className={Sstyle.container}>
+            <div className={Sstyle.servicesitems}>
+                <div className={Sstyle.serviceimgbox}>
+                    <Image src={serviceImg} alt='serviceimg' className={Sstyle.serviceimg}/>
                 </div>
-                <div className="service-text">
-                    <h2 className="services-headign text-blue">
+                <div className={Sstyle.servicetext}>
+                    <h2 className={Sstyle.servicesheading}>
                     Our Services
                     </h2>
-                    <p className="services-text text-blue">Share your services or specializations here, then list them down as bullet points for mobile-friendly easy reading. </p>
-                    <div className="service-builets">
-                        <Image src={serviceIcon} alt='serviceIcon' className='serviceIcon'/>
-                        <p className='iconText text-blue'>Add as many bullets
+                    <p className={Sstyle.servicestext}>Share your services or specializations here, then list them down as bullet points for mobile-friendly easy reading. </p>
+                    <div className={Sstyle.servicebuilets}>
+                        <Image src={serviceIcon} alt='serviceIcon' className={Sstyle.serviceIcon}/>
+                        <p className={Sstyle.iconText}>Add as many bullets
                         as you need</p>
                     </div>
-                    <div className="service-builets">
-                        <Image src={serviceIcon} alt='serviceIcon' className='serviceIcon'/>
-                        <p className='iconText text-blue'>Add as many bullets
+                    <div className={Sstyle.servicebuilets}>
+                        <Image src={serviceIcon} alt='serviceIcon' className={Sstyle.serviceIcon}/>
+                        <p className={Sstyle.iconText}>Add as many bullets
                         as you need</p>
                     </div>
-                    <div className="service-builets">
-                        <Image src={serviceIcon} alt='serviceIcon' className='serviceIcon'/>
-                        <p className='iconText text-blue'>Add as many bullets
+                    <div className={Sstyle.servicebuilets}>
+                        <Image src={serviceIcon} alt='serviceIcon' className={Sstyle.serviceIcon}/>
+                        <p className={Sstyle.iconText}>Add as many bullets
                         as you need</p>
                     </div>
                 </div>

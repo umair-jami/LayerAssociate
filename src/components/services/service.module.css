@@ -1,31 +1,39 @@
-.service-section{
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+  }
+.servicesection{
     height: 100vh;
+    background-color: #f4f1ec;
 }
-.services-items{
+.servicesitems{
     width: 90%;
     margin: auto;
     display: flex;
     /* padding-top: 130px; */
 }
-.service-img-box{
+.serviceimgbox{
     flex-basis: 40%;
 }
-.service-img{
+.serviceimg{
     margin-top: 100px;
     height: 80%;
 }
-.service-text{
+.servicetext{
     flex-basis: 60%;
     padding: 40px;
 }
-.services-headign{
+.servicesheading{
     margin-top: 60px;
     margin-bottom: 30px;
+    color: #222344;
 }
-.services-text{
+.servicestext{
     margin-bottom: 20px;
+    color: #222344;
 }
-.service-builets{
+.servicebuilets{
     margin-bottom: 20px;
 }
 .serviceIcon{
@@ -38,15 +46,16 @@
 .iconText{
     margin: 5px 0;
     width: 200px;
+    color: #222344;
 }
-.service-builets{
+.servicebuilets{
     display: flex;
 }
 @media screen and (max-width:620px) {
-    .services-items{
+    .servicesitems{
         display: block;
     }
-    .service-img-box{
+    .serviceimgbox{
         display: none;
     }
 }

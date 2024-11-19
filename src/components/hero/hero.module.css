@@ -1,5 +1,10 @@
 /* Hero Section Styles */
-.hero-section {
+.container{
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+.herosection {
   height: 95vh;
   display: flex;
   flex-direction: column;
@@ -16,16 +21,19 @@
 }
 
 /* Heading Styles */
-.hero-heading {
+.heroheading {
   width: 370px;
   font-size: 50px;
   margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #cdad7d;
 }
-
 /* Text Styles */
-.hero-text {
+.herotext {
   width: 514px;
   line-height: 30px;
+  letter-spacing: 2px;
 }
 
 /* Button Styles */
@@ -34,6 +42,7 @@
   padding: 10px 15px;
   margin-top: 30px;
   transition: transform 0.4s ease-in-out;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -42,18 +51,18 @@
 
 /* Media Queries */
 @media screen and (max-width: 948px) {
-  .hero-section {
+  .herosection {
     padding-left: 40px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-heading {
+  .heroheading {
     font-size: 36px;
     max-width: 100%;
   }
 
-  .hero-text {
+  .herotext {
     font-size: 16px;
     max-width: 100%;
     line-height: 1.4;
@@ -66,15 +75,15 @@
 }
 
 @media (max-width: 480px) {
-  .hero-heading {
+  .heroheading {
     font-size: 28px;
   }
 
-  .hero-text {
+  .herotext {
     font-size: 14px;
   }
 
-  .hero-section {
+  .herosection {
     height: auto; /* Fit content height on smaller screens */
     padding: 40px 20px;
   }

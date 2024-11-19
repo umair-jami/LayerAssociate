@@ -11,37 +11,37 @@ import logo from "../../assets/logo.png";
 
 export default function Contact() {
   return (
-    <div className={`${style.contactSection} bg-white`} id="contact">
+    <div className={`${style.contactSection}`} id="contact">
       <div className="container">
         <div className={style.contactText}>
-          <h2 className={`${style.contactHeading} text-blue`}>Conatct Us</h2>
+          <h2 className={`${style.contactHeading}`}>Conatct Us</h2>
           <div className={style.infoDetail}>
             <Image src={locationIcon} alt="map" className={style.img} />
-            <p className={`${style.infoText} text-blue`}>
+            <p className={`${style.infoText}`}>
               123 Anywhere St. Any City, ST 12345
             </p>
           </div>
           <div className={style.infoDetail}>
             <Image src={phoneImage} alt="map" className={style.img} />
-            <p className={`${style.infoText} text-blue`}>+923000000000</p>
+            <p className={`${style.infoText}`}>+923000000000</p>
           </div>
           <div className={style.infoDetail}>
             <Image src={emailImage} alt="map" className={style.img} />
-            <p className={`${style.infoText} text-blue`}>
+            <p className={`${style.infoText}`}>
               hello@reallygreatsite.com
             </p>
           </div>
         </div>
         <div className={style.officeInfo}>
           <h2 className="text-blue">Office Hours</h2>
-          <p className="text-yellow">Monday to Friday</p>
-          <p className="text-blue">9:00 am to 6:00 pm</p>
-          <p className="text-yellow">Saturday</p>
-          <p className="text-blue">9:00 am to 12 noon</p>
+          <p className="OfficeDays">Monday to Friday</p>
+          <p className="timing">9:00 am to 6:00 pm</p>
+          <p className="OfficeDays">Saturday</p>
+          <p className="timing">9:00 am to 12 noon</p>
         </div>
         <div className={style.social}>
           <div className={style.socialHeading}>
-            <h1 className="text-blue">Follow us online</h1>
+            <h1>Follow us online</h1>
           </div>
           <div className={style.socialLinks}>
             <Image src={fbIcon} alt="fb" className={style.iconImg} />
@@ -50,13 +50,13 @@ export default function Contact() {
           </div>
         </div>
         <div className={style.socialText}>
-          <p className="text-blue">
+          <p>
             This is an accessible workplace. Persons with <br /> disabilities
             are welcome to apply.{" "}
           </p>
-          <div className={`${style.webLogo} nav-heading text-yellow ls-1 text-uppercase`}>
+          <div className={`${style.webLogo} ${style.navheading}`}>
             <Image src={logo} alt="logo" className={style.ContactIcon} />
-            <p className="text-blue">myron law associates</p>
+            <p>myron law associates</p>
           </div>
         </div>
       </div>

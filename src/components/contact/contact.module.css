@@ -1,8 +1,10 @@
 .contactSection{
     height: 110vh;
+    background-color: #fff;
 }
 .contactHeading{
     padding-top: 100px;
+    color: #222344;
 }
 .infoDetail{
     display: flex;
@@ -15,9 +17,19 @@
 .infoText{
     margin-left: 10px;
     margin-top: 20px;
+    color: #222344;
 }
 .officeInfo{
     margin-top: 30px;
+}
+.officeInfo h2{
+    color: #222344;
+}
+.officeDays{
+    color: #cdad7d;
+}
+.timing{
+    color: #222344;
 }
 .officeInfo p:nth-of-type(3){
     margin-top: 20px;
@@ -32,6 +44,9 @@
     display: flex;
     margin-top: 30px;
 }
+.socialHeading h1{
+    color: #222344;
+}
 .socialLinks{
     display: flex;
 }
@@ -39,14 +54,31 @@
     display: flex;
     justify-content: space-between;
 }
+.socialText p{
+    color: #222344;
+}
 .webLogo{
     display: flex;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.webLogo p{
+    color: #222344;
 }
 .ContactIcon{
     margin: 5px;
     width: 40px;
     height: 40px;
 }
+.navheading {
+    width: 200px;
+    display: flex;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .navheading p {
+    color: red;
+  }
 
 @media screen and (max-width:1000px) {
     .contactSection{
